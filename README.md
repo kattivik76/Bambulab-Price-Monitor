@@ -99,3 +99,6 @@ La struttura del progetto è la seguente:
 Questo programma è distribuito sotto la **Licenza Pubblica Generica GNU (GPL v3)**. Puoi redistribuirlo e modificarlo liberamente, seguendo i termini della licenza GPL v3. Per maggiori dettagli, visita il link ufficiale della licenza GPL v3.
 
 Autore: Alessandro Migliorini
+
+## Make a donation
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=38LNBHDPTZUU6)
