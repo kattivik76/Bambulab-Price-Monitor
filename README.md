@@ -28,7 +28,7 @@
    Clona questo repository sul tuo computer con il comando:
 
    ```bash
-   git clone https://github.com/tuo-username/Bambulab-Price-Monitor.git
+   git clone https://github.com/kattivik76/Bambulab-Price-Monitor.git
    cd Bambulab-Price-Monitor
 
 2. **Installa le dipendenze**:
