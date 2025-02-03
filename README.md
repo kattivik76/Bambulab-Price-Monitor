@@ -35,25 +35,25 @@
 
    Le librerie necessarie per il corretto funzionamento del programma sono elencate nel file requirements.txt. Puoi installarle usando il seguente comando:
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-   Questo comando installerà le seguenti librerie:
-  - beautifulsoup4: Per fare il parsing e l'estrazione dei dati dalla pagina web.
-  - httpx: Per fare richieste HTTP asincrone al sito di BambuLab.
-  - plyer: Per inviare notifiche sui sistemi operativi.
-  - tqdm: Per visualizzare una barra di progresso.
+      Questo comando installerà le seguenti librerie:
+     - beautifulsoup4: Per fare il parsing e l'estrazione dei dati dalla pagina web.
+     - httpx: Per fare richieste HTTP asincrone al sito di BambuLab.
+     - plyer: Per inviare notifiche sui sistemi operativi.
+     - tqdm: Per visualizzare una barra di progresso.
 
 3. **Configura Telegram**:
 
-  Per inviare notifiche su Telegram, è necessario creare un bot su Telegram tramite il servizio BotFather e ottenere il token del bot. Inoltre, dovrai ottenere l'ID della chat (che può essere un gruppo o un canale).
-  Una volta ottenuti questi dati, dovrai sostituire le seguenti variabili nel codice di monitor.py con il token e l'ID della chat:
+     Per inviare notifiche su Telegram, è necessario creare un bot su Telegram tramite il servizio BotFather e ottenere il token del bot. Inoltre, dovrai ottenere l'ID della chat (che può essere un gruppo o un canale).
+     Una volta ottenuti questi dati, dovrai sostituire le seguenti variabili nel codice di monitor.py con il token e l'ID della chat:
   
-  ```python
-  TELEGRAM_BOT_TOKEN = "il_tuo_token_telegram"
-  TELEGRAM_CHAT_ID = "il_tuo_chat_id"
-  ```
+     ```python
+     TELEGRAM_BOT_TOKEN = "il_tuo_token_telegram"
+     TELEGRAM_CHAT_ID = "il_tuo_chat_id"
+     ```
 
 ## Uso
 ### Avviare il monitoraggio
